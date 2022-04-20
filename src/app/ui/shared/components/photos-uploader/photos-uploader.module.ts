@@ -15,5 +15,5 @@ import {PhotosUploaderComponent} from './photos-uploader.component';
     IconModule
   ]
 })
-export class PhotosUploaderModule {
-}
+
+export class PhotosUploaderModule {}

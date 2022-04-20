@@ -18,5 +18,4 @@ import {TagsComponent} from "./tags.component";
   ]
 })
 
-export class TagsModule {
-}
+export class TagsModule {}

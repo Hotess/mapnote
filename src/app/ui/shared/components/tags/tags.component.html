@@ -10,14 +10,13 @@
     </button>
   </li>
 </ul>
-
 <input type="text"
        class="tag-name-input"
        placeholder="Название..."
        [(ngModel)]="newTagNameValue"
        [disabled]="isDisabled"
        (keyup)="onKeyUpEnter($event)">
-
 <button class="button is-secondary add-button"
         [disabled]="isDisabled"
-        (click)="onClickAddButton()">Добавить</button>
+        (click)="onClickAddButton()">Добавить
+</button>

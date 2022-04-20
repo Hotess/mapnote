@@ -1,5 +1,5 @@
-import {Component, forwardRef, OnInit} from "@angular/core"
-import {ControlValueAccessor, NG_VALUE_ACCESSOR} from "@angular/forms"
+import {Component, forwardRef, OnInit} from "@angular/core";
+import {ControlValueAccessor, NG_VALUE_ACCESSOR} from "@angular/forms";
 
 @Component({
   selector: "mn-tags",
@@ -45,6 +45,7 @@ export class TagsComponent implements OnInit, ControlValueAccessor {
   public writeValue(tags: string[] | null): void {
     if (tags === null) {
       this.tags = [];
+
       return;
     }
 
@@ -53,6 +54,7 @@ export class TagsComponent implements OnInit, ControlValueAccessor {
 
   public onClickCloseButton(event: MouseEvent, tagNameToRemove: string): void {
     event.stopPropagation();
+
     this.tags = this.tags.filter((tagName) => tagName !== tagNameToRemove);
     this.onChange(this.tags);
     this.onTouch();

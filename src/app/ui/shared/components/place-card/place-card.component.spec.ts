@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { MdEditorComponent } from './md-editor.component';
+import { PlaceCardComponent } from './place-card.component';
 
-describe('MdEditorComponent', () => {
-  let component: MdEditorComponent;
-  let fixture: ComponentFixture<MdEditorComponent>;
+describe('PlaceCardComponent', () => {
+  let component: PlaceCardComponent;
+  let fixture: ComponentFixture<PlaceCardComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ MdEditorComponent ]
+      declarations: [ PlaceCardComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(MdEditorComponent);
+    fixture = TestBed.createComponent(PlaceCardComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

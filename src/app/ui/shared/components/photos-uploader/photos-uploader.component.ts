@@ -19,8 +19,7 @@ export class PhotosUploaderComponent implements OnInit, ControlValueAccessor {
   public images: string[] = [];
   public isDisabled: boolean = false;
 
-  constructor() {
-  }
+  constructor() {}
 
   public ngOnInit(): void {
   }
