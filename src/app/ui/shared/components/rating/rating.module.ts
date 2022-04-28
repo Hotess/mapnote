@@ -1,7 +1,7 @@
-import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
-import { IconModule } from "../icon/icon.module"
-import { RatingComponent } from './rating.component';
+import {NgModule} from '@angular/core';
+import {CommonModule} from '@angular/common';
+import {IconModule} from "../icon/icon.module"
+import {RatingComponent} from './rating.component';
 
 @NgModule({
   declarations: [
@@ -15,4 +15,5 @@ import { RatingComponent } from './rating.component';
     IconModule
   ]
 })
-export class RatingModule { }
+
+export class RatingModule {}
